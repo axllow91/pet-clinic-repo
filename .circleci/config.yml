@@ -32,7 +32,7 @@ jobs:
 
       # install the modules into the local
       # skip the tests installation
-      run: mvn install -DskipTests
+      - run: mvn install -DskipTests
 
       - run: mvn dependency:go-offline
 
