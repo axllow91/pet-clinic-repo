@@ -54,7 +54,7 @@ class OwnerControllerTest {
                 .andExpect(status().isOk())
                 // returns the "owners/index" view
                 .andExpect(view().name("owner/index"))
-                .andExpect(model().attribute("owners", hasSize(5)));
+                .andExpect(model().attribute("owners", hasSize(2)));
 
     }
 
