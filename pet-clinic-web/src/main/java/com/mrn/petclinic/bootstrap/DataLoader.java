@@ -61,7 +61,6 @@ public class DataLoader implements CommandLineRunner {
 
         System.out.println("Loaded pet types...");
 
-
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Scofield");
